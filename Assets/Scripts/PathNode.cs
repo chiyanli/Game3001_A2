@@ -1,18 +1,17 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+////using UnityEngine;
+////using System.Collections.Generic;
 
-public class PathNode : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+////public class PathNode : MonoBehaviour
+////{
+////    public Vector2Int Position;
+////    public List<PathConnection> Connections = new List<PathConnection>();
+////    public float Cost = float.MaxValue; // Default cost to a very high value
+////    public PathNode PreviousNode;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-}
+////    void OnDrawGizmos()
+////    {
+////        Gizmos.color = Color.green;
+////        Gizmos.DrawCube(transform.position, Vector3.one * 0.9f);
+////    }
+////}
+
